@@ -9,4 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+    {
+      "ledger/vim-ledger",
+      ft = {"ledger","ldg","journal"}
+    },
 }
